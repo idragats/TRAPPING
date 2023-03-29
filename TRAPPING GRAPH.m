@@ -24,7 +24,7 @@ figure(2)
 plot(times,y)
 hold on
 fplot(@(N) (1-10^-3)^((pi*N)/(log(N))))
-legend('Distribution','Ö(N)=(1-C)^{(ð*N/log(N))}')
+legend('Distribution','WRITE EQUATION')
 xlabel("TRAPPING TIME")
 ylabel("SURVIVAL PROBABILITY")
 title("SURVIVAL DISTRIBUTION C=0.01")
